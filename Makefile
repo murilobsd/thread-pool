@@ -1,4 +1,7 @@
-.PHONY: audit doc build test run release
+.PHONY: fmt audit doc build test run release
+
+fmt:
+	@cargo fmt
 
 audit:
 	@cargo audit
